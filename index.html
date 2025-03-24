@@ -3,42 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aptitude Test Builder</title>
-    <link rel="stylesheet" href="./styles.css">
-    <link rel="stylesheet" href="./slidebar.css">
+    <link rel="stylesheet" href="./My/styles.css">
+    <link rel="stylesheet" href="./My/slidebar.css">
 </head>
 <body>
-
-    <!-- Navbar -->
     <nav class="navbar">
         <div class="logo">Aptitude Test Builder</div>
         <ul class="nav-links">
             <li><a href="#">Home</a></li>
             <li><a href="#">About</a></li>
-            <li><a href="#">Services</a></li>
+         
             <li><a href="#">Contact</a></li>
+            <li><a href="./My/login.html">Login</a></li>
         </ul>
         <div class="hamburger" onclick="toggleMenu()">☰</div>
     </nav>
 
-    <!-- Sidebar -->
     <div class="sidebar" id="sidebar">
-        <button class="close-btn" onclick="toggleSidebar()">×</button>
+        <button class="toggle-btn" id="toggleBtn" onclick="toggleSidebar()">× Close Sidebar</button>
         <a href="#">Create Test</a>
         <a href="#">Manage Questions</a>
         <a href="#">View Results</a>
         <a href="#">Settings</a>
     </div>
-
-    <!-- Main Content -->
-    <div class="content">
-        <button class="open-sidebar" onclick="toggleSidebar()">☰ Open Sidebar</button>
-        <h1>Welcome to the Aptitude Test Builder</h1>
-        <p>Choose an option from the sidebar to start.</p>
-    </div>
-
-    <script src="homenav.js"></script>
-    <script src="slidebar.js"></script>
-
+    
+    <script src="./My/homenav.js"></script>
+    
+    <script src="./My/slidebar.js"></script>
 </body>
 </html>

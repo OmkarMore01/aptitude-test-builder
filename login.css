@@ -73,11 +73,14 @@ button:hover {
 @media (max-width: 600px) {
     .login-container {
         padding: 15px;
-        width: 90%;  /* Take up more width on small screens */
+        width: 90%;
+        height: 42vh;  /* Take up more width on small screens */
     }
 
     h2 {
-        font-size: 20px;  /* Reduce font size for smaller screens */
+        font-size: 20px; 
+        
+        margin-bottom: 35px;/* Reduce font size for smaller screens */
     }
 
     
@@ -108,6 +111,7 @@ button:hover {
 @media (min-width: 1200px) {
     .login-container {
         width: 30%;
+        height: 55vh;
     }
     label{
         font-size: 25px;
